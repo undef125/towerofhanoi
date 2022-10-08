@@ -1,0 +1,165 @@
+.section1holder,
+.section2holder,
+.section3holder {
+  height: 30rem;
+  background-color: rgba(0, 0, 0, 0.46);
+  border-radius: 10px 10px 0px 0px;
+  width: 16rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.sections {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.disk {
+  height: 2rem;
+  border-radius: 10px;
+}
+button {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: #4c6793;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+#disk1 {
+  background-color: #ac2210;
+}
+#disk2 {
+  background-color: #d3506c;
+}
+#disk3 {
+  background-color: #ac6810;
+}
+#disk4 {
+  background-color: #ac108d;
+}
+#disk5 {
+  background-color: #97ac10;
+}
+#disk6 {
+  background-color: #6610ac;
+}
+#disk7 {
+  background-color: #3aac10;
+}
+#disk8 {
+  background-color: #1310ac;
+}
+#disk9 {
+  background-color: #10ac6e;
+}
+#disk10 {
+  background-color: #1054ac;
+}
+#disk11 {
+  background-color: #10ac9f;
+}
+#disk12 {
+  background-color: #7178b8;
+}
+#disk13 {
+  background-color: #657263;
+}
+#disk14 {
+  background-color: #2a3167;
+}
+#disk15 {
+  background-color: #8510ac;
+}
+
+.controlsHolder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.diskcountholder {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.timeInput {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.textbox {
+  width: 6rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.showAnswer {
+  width: 15rem;
+}
+
+.popupModelHolder {
+    position: absolute;
+  height: 101.5vh ;
+  width: 100%;
+  background-color: #01010145;
+}
+.answerSequenceholder {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  width: 30rem;
+  height: 40%;
+  padding: 2rem;
+  overflow-y: scroll;
+  background-color: #06283D;
+  border-radius: 10px;
+}
+.answerSequenceholder::-webkit-scrollbar{
+    width: 6px;
+}
+.answerSequenceholder::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgb(11, 78, 150);
+}
+.answerSequenceholder::-webkit-scrollbar-thumb{
+    background-color: #0d8797;
+}
+.indseq{
+    margin-top: .4rem;
+    font-size: 1.1rem;
+    color:white;
+}
+
+@media screen and (max-width: 600px) {
+  .textbox {
+    font-size: 1rem;
+  }
+  .answerSequenceholder {
+    width: 90%;
+    padding: .5rem;
+  }
+}
